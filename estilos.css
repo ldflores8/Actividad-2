@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 80px;
+    background-color: #7babdb;
+    color: #333;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nombre {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.información {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.tabla {
+    border-collapse: collapse;
+    width: 280px;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.tabla th {
+    background-color: #00a2ff;
+    color: white;
+    padding: 6px;
+    text-align: left;
+}
+
+.tabla td {
+    border: 1px solid #090909;
+    padding: 6px;
+}
+
+.empresa {
+    border: 1px solid #090909;
+}
+
+.cliente {
+    border: 1px solid #090909;
+}
+
+.adicional {
+    border: 1px solid #090909;
+}
+
+.productos {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #7babdb;
+}
+
+.tabla.productos {
+    width: 90%;
+    max-width: 900px;
+}
+
+.tabla.productos th {
+    background-color: #343a40;
+    color: white;
+}
+
+.tabla.productos td {
+    text-align: center;
+}
+
+.total td {
+    font-weight: bold;
+    background-color: #e9ecef;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #666;
+}
