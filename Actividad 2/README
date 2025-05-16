@@ -1,0 +1,87 @@
+# Estructura del archivo HTML
+
+En este proyecto vamos a crear una página web que simula una factura o proforma, utilizando HTML para la estructura y CSS externo para aplicar estilos.
+
+## Tecnologías Utilizadas
+
+HTML5: Para estructurar el contenido en tablas y secciones claramente definidas.
+CSS3 (archivo externo): Para aplicar estilos a toda la página, asegurando una presentación profesional, consistente y visualmente diferenciada entre secciones.
+Flexbox: Utilizado para alinear horizontalmente las tablas de información (empresa, cliente y adicional), permitiendo adaptabilidad y separación visual.
+
+### Estructura del Proyecto
+
+El diseño se divide en cuatro secciones principales:
+
+### 1. Encabezado:
+
+Título del documento: “Mi Primera Factura”.
+Nombre del desarrollador o autor que en este caso es Luis Flores.
+
+### 2. Sección de Información:
+
+Tres tablas colocadas una al lado de la otra con datos de:
+La empresa (nombre, dirección, RUC, contacto, etc.).
+El cliente (nombre, cédula, dirección, correo, etc.).
+Información adicional (forma de pago, observaciones, agradecimientos).
+
+### 3. Listado de Productos:
+
+Tabla amplia que muestra:
+Código del producto.
+Descripción.
+Cantidad.
+Precio unitario.
+Subtotal.
+Total final calculado manualmente.
+
+### 4. Estilo Visual:
+
+Uso de colores diferenciados por tabla (tonos azules y gris oscuro).
+Bordes en color negro para cada celda.
+Sombreados, márgenes, tipografía clara y espaciado adecuado para mejorar la lectura.
+Diseño centrado y compacto, simulando un documento real.
+
+## Estilos
+
+Las tablas tienen un diseño uniforme con bordes, colores de fondo para encabezados y celdas bien espaciadas.
+Las secciones están separadas mediante margin y organizadas con flexbox.
+El fondo de la página es azul claro, y las tablas tienen fondo blanco para resaltar los datos.
+El mensaje de agradecimiento en la tabla adicional se presenta con estilo cursiva y tono más tenue.
+
+## Etiquetas
+
+### 1. h1
+
+    Títilo principal en mi caso Mi primera Factura.
+
+### 2. h2
+
+    Subtítulo en este caso mi nombre.
+
+### 3. div
+
+    Contenedor que agrupa secciones en mi caso información y productos.
+
+### 4. table
+
+    Sirve para crear una tabla para organizar datos y agruparlos en filas y columnas.
+
+### 5. tr
+
+    Sirve para definir una fila dentro de una tabla.
+
+### 6. th
+
+    Sirve para crear una celda de encabezado. Generalmente se utiliza en la primera fila.
+
+### 7. td
+
+    Sirve para defiir una celda normal de datos en una tabla.
+
+### 8. class
+
+    Sirve para poder utilizar y aplicar estilos desde CSS.
+
+### 9. colspan
+
+    Sirve para que una celda abarque varias columnas.
